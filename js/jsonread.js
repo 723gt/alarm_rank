@@ -1,6 +1,7 @@
 $(function () {
 	function json_read(level)
 	{
+		console.log("in");
 		var filename = null;
 		switch(level)
 		{
