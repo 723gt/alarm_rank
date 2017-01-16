@@ -16,7 +16,7 @@ $(function () {
         filename = "../json/hard.json"
         break;
 		}
-
+    console.log("filename" + filename);
 		$.getJSON(filename,function(rank){
 			console.log("JSON");
       for(var i = 0 ; i < 10 ; i++)
