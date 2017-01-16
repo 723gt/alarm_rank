@@ -24,4 +24,9 @@ $(function () {
       }
 		});
 	}
+
+	function easy_load()
+	{
+		json_read(0);
+	}
 });
