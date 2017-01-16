@@ -1,0 +1,25 @@
+.eaycatch{
+	text-align:center;
+}
+
+.easylogo{
+	position: relative;
+  left: 400px;
+}
+
+.normallogo{
+	position: relative;
+	left: 600px;
+}
+
+.hardlogo{
+	position: relative;
+	left: 800px;
+}
+
+a {
+	display: inline-block;
+  width: 100px;
+  height: 70px;
+  background: #098762;
+}
