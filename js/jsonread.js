@@ -6,6 +6,7 @@ $(function () {
 		switch(level)
 		{
 			case 0:
+			  console.log("switch in");
 			  filename = "../json/easy.json"
 			  break;
 			case 1:
