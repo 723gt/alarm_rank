@@ -25,7 +25,7 @@ $(function () {
 		});
 	}
 
-	window.onload = function easy_load()
+	function easy_load()
 	{
 		json_read(0);
 	}
