@@ -1,5 +1,5 @@
 $(function () {
-	function json_read(level)
+	function json_read(level,id)
 	{
 		console.log("in");
 		var filename = null;
@@ -20,13 +20,13 @@ $(function () {
       for(var i = 0 ; i < 10 ; i++)
       {
       	var msg = (i+1) + "位" + "  " + "Name: " + rank[i].name + "  " + "Time: " + rank[i].time;
-      	$(rank_disp).append(msg);
+      	$(id).append(msg);
       }
 		});
 	}
   
   if($('#easy_disp').length)
   {
-	  json_read(0);
+	  json_read(0,'#easy_disp');
   }
 });
