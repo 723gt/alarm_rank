@@ -24,9 +24,9 @@ $(function () {
       }
 		});
 	}
-
-	function easy_load()
-	{
-		json_read(0);
-	}
+  
+  if($('#easy_disp').length)
+  {
+	  json_read(0);
+  }
 });
