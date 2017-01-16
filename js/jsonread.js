@@ -17,6 +17,7 @@ $(function () {
 		}
 
 		$.getJSON(filename,function(rank){
+			console.log("JSON");
       for(var i = 0 ; i < 10 ; i++)
       {
       	var msg = (i+1) + "位" + "  " + "Name: " + rank[i].name + "  " + "Time: " + rank[i].time;
