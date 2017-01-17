@@ -31,4 +31,9 @@ $(function () {
   {
 	  json_read(0,'#easy_disp');
   });
+
+  $('#easy_disp').mouseout(function()
+  {
+  	$("#result").empty();
+  })
 });
