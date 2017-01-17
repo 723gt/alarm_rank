@@ -1,5 +1,5 @@
 $(function () {
-	function json_read(level,id)
+	function json_read(level)
 	{
 		console.log("in");
 		var filename = null;
@@ -10,10 +10,10 @@ $(function () {
 			  filename = "json/easy.json"
 			  break;
 			case 1:
-			  filename = "../json/normal.json"
+			  filename = "json/normal.json"
         break;
       case 2:
-        filename = "../json/hard.json"
+        filename = "json/hard.json"
         break;
 		}
     console.log("filename" + filename);
@@ -29,11 +29,28 @@ $(function () {
   
   $('#easy_disp').mouseover(function()
   {
-	  json_read(0,'#easy_disp');
+	  json_read(0);
+  });
+  $('#normal_disp').mouseover(function()
+  {
+    json_read(1);
+  });
+  $('#hard_disp').mouseover(function()
+  {
+    json_read(2);
   });
 
   $('#easy_disp').mouseout(function()
   {
   	$("#result").empty();
+  });
+  $("#normal_disp").mouseout(function()
+  {
+  	$("#result").empty();
+  });
+  $("#hard_disp").mouseout(function()
+  {
+  	$("#result").empty();
   })
+
 });
