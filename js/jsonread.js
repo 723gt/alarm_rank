@@ -27,8 +27,8 @@ $(function () {
 		});
 	}
   
-  if($('#easy_disp').length)
+  $('#easy_disp').mouseover(function()
   {
 	  json_read(0,'#easy_disp');
-  }
+  });
 });
