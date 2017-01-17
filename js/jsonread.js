@@ -7,7 +7,7 @@ $(function () {
 		{
 			case 0:
 			  console.log("switch in");
-			  filename = "../json/easy.json"
+			  filename = "/json/easy.json"
 			  break;
 			case 1:
 			  filename = "../json/normal.json"
