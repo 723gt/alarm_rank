@@ -22,7 +22,7 @@ $(function () {
       for(var i = 0 ; i < 10 ; i++)
       {
       	var msg = "<div class=\"result\">" + (i+1) + "位" + "  " + "Name: " + rank[i].name + "  " + "Time: " + rank[i].time + "</div>" ;
-      	$(id).append(msg);
+      	$("#result").append(msg);
       }
 		});
 	}
