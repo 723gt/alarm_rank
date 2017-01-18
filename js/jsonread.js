@@ -3,17 +3,24 @@ $(function () {
 	{
 		console.log("in");
 		var filename = null;
+		var rankmsg = "ランキング"
 		switch(level)
 		{
 			case 0:
 			  console.log("switch in");
-			  filename = "json/easy.json"
+			  filename = "json/easy.json";
+        rankmsg = "イージー" + rankmsg;
+        $("#result").append(rankmsg);	
 			  break;
 			case 1:
-			  filename = "json/normal.json"
+			  filename = "json/normal.json";
+			  rankmsg = "ノーマル" + rankmsg;
+        $("#result").append(rankmsg);	
         break;
       case 2:
-        filename = "json/hard.json"
+        filename = "json/hard.json";
+        rankmsg = "ハード" + rankmsg;
+        $("#result").append(rankmsg);	
         break;
 		}
     console.log("filename" + filename);
@@ -45,18 +52,15 @@ $(function () {
 
   $('#easy_disp').mouseout(function()
   {
-  	$("#ranking").empty();
-  	$("#result").empty();
+   	$("#result").empty();
   });
   $("#normal_disp").mouseout(function()
   {
-  	$("#ranking").empty();
   	$("#result").empty();
   });
   $("#hard_disp").mouseout(function()
   {
-  	$("#ranking").empty();
-  	$("#result").empty();
+    $("#result").empty();
   })
 
 });
