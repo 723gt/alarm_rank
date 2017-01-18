@@ -29,28 +29,31 @@ $(function () {
   
   $('#easy_disp').mouseover(function()
   {
+  	$("#ranking").append("イージー ランキング");
 	  json_read(0);
   });
   $('#normal_disp').mouseover(function()
   {
+  	$("#ranking").append("ノーマル ランキング");
     json_read(1);
   });
   $('#hard_disp').mouseover(function()
   {
+  	$("#ranking").append("ハード ランキング");
     json_read(2);
   });
 
   $('#easy_disp').mouseout(function()
   {
-  	$("#result").empty();
+  	$("#ranking").empty();
   });
   $("#normal_disp").mouseout(function()
   {
-  	$("#result").empty();
+  	$("#ranking").empty();
   });
   $("#hard_disp").mouseout(function()
   {
-  	$("#result").empty();
+  	$("#ranking").empty();
   })
 
 });
