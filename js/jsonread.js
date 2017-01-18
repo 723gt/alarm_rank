@@ -46,14 +46,17 @@ $(function () {
   $('#easy_disp').mouseout(function()
   {
   	$("#ranking").empty();
+  	$("#result").empty();
   });
   $("#normal_disp").mouseout(function()
   {
   	$("#ranking").empty();
+  	$("#result").empty();
   });
   $("#hard_disp").mouseout(function()
   {
   	$("#ranking").empty();
+  	$("#result").empty();
   })
 
 });
