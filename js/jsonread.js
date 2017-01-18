@@ -28,7 +28,7 @@ $(function () {
 			console.log("JSON");
       for(var i = 0 ; i < 10 ; i++)
       {
-      	var msg = "<div class=\"result\">" + (i+1) + "位" + "  " + "Name: " + rank[i].name + "  " + "Time: " + rank[i].time + "</div>" ;
+      	var msg = "<div class=\"result_disp\">" + (i+1) + "位" + "  " + "Name: " + rank[i].name + "  " + "Time: " + rank[i].time + "</div>" ;
       	$("#result").append(msg);
       }
 		});

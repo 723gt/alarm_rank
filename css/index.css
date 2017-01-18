@@ -20,6 +20,11 @@
 	left: 30px;
 }
 
+.result_disp{
+	position: relative;
+	top: -50px;
+}
+
 a {
 	display: inline-block;
   width: 100px;
