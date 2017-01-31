@@ -29,14 +29,18 @@
   position:relative;
   top: 50px;
   left: 200px;
-
 }
 
 .download{
   position:relative;
   top: 50px;
   left: 250px;
+}
 
+.twitter{
+  position:relative;
+  top: 100px;
+  left: -207px;
 }
 
 
